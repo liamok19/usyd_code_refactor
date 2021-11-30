@@ -49,7 +49,7 @@ a {
     text-decoration: underline;
 }
 
-/*  */
+/* hover applied for visual effect */
 .underline a:hover {
     color: #ccec92;
 }
@@ -152,9 +152,7 @@ p {
     color: #ffffff;
     
 }
-.search-engine-optimization h2{
-    text-decoration: underline;
-}
+
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
