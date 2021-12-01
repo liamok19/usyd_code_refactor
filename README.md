@@ -9,10 +9,13 @@
 ## Table of Contents
 If your README is long, add a table of contents to make it easy for users to find what they need.
 - [Installation](#installation)
-- [Usage](#usage)
+- [Assets](#assets)
+- [Links](#links)
 - [Credits](#credits)
 - [License](#license)
+
 ## Installation
+
 1. Review the objective of the assignment and plan Computational Thinking. Decomposition, Pattern recognition, Abstraction and Algorithim. 
 2. Create a repository first via github. You can follow the same practice locally, but for this scenario I ran it via git. Whilst including the new repo make sure that it's set to 'Public' and that you have the READme file attached. 
 3. Git clone to your local server. I attached it to an ongoing homework folder. 
@@ -22,18 +25,31 @@ If your README is long, add a table of contents to make it easy for users to fin
 7. Throughout the process continue to git commit messages of your updates so push to github. While you're pushing to github make sure your pushing the local folder so your work also versions up to github. 
 8. Once your web page is looking like the objective set by the instructors or leads you'll need to creat a Github Link. Steps to follow can be foun in this link
 
-## Usage
-Provide instructions and examples for use. Include screenshots as needed.
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+## Assets
 
-![Outcome_Image](usyd_code_refactor/Develop/assets/readme_screenshots/liamo_usyd_code_refactor_index.png) 
+The following image demonstrates the web application's default appearance and functionality: 
 
+![Outcome_Image](./Develop/assets/images/01-html-css-git-homework-demo.png)
+img[src*='#center'] {
+    display: block;
+    margin: auto;
+}
+
+## Links
+Github link for reference is below: 
+https://github.com/liamok19/usyd_code_refactor.git
 
 ## Credits
-List your collaborators, if any, with links to their GitHub profiles.
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-If you followed tutorials, include links to those here as well.
+
+Based on the research I found the following sources that I would like to credit for this project: 
+| Source        | Platform      | Other  |
+| ------------- |:-------------:| -----:|
+| #ask your classmaters | Slack      |Conversations between instructors and classmates |
+| ExpandTheRoom | Youtube       |Title: How to Check Web Accessibility with a Screen Reader and Keyboard|
+| Universal Design | Youtube |Title: Visual Keyboard Focus |
+| Robobunnyattack!    | Youtube      |Title: How do I change the colour of a link when I hover over it?| 
+
 ## License
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
----
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+- Existing projects and communities, this README file is publicly open for reference and review. 
+
+## Pat yourself on the back once you have got to this point	😀
