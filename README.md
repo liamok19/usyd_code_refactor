@@ -1,5 +1,12 @@
 # Code Refactor
 
+## Links: 
+Github Repo:
+https://github.com/liamok19/usyd_code_refactor.git
+
+Deployed Link:
+https://liamok19.github.io/usyd_code_refactor/
+
 ## Description
 - The objective was to create a running website using Github pages as a bridge. The web page must be web accesible and have a visual treatment review. 
 - It was important that this review included a web accesibility and easy access for inclusive purposes. 
@@ -36,9 +43,10 @@ img[src*='#center'] {
 }
 
 ## Links
-Github link for reference is below: 
+- Github link for reference is below: 
 https://github.com/liamok19/usyd_code_refactor.git
-Website Link for reference is below: 
+
+- Website Link for reference is below: 
 https://liamok19.github.io/usyd_code_refactor/
 
 ## Credits

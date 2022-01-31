@@ -1,13 +1,21 @@
+/* Table of Contents:
+1. Root CSS properties
+2. Body (element tags)
+3. Text Animation */
+
+/* 1.Root CSS properties  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* 2. Body (element tags) */
+
 body {
     background-color: #d9dcd6;
 }
-
+/* root styling for header/navbar based on concept design */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,15 +25,20 @@ body {
     width: 100%;
 }
 
+/* h1 header placement of text and font size */
+
 .header h1 {
     display: inline-block;
     font-size: 48px;
 
 }
+/* h1 header placement of font colour */
 
 .header h1 .seo {
     color: #d9dcd6;
 }
+
+/* header div stylign properties and placement */
 
 .header div {
     padding-top: 15px;
@@ -35,32 +48,20 @@ body {
     font-size: 20px;
 }
 
-.header div ul { 
-    /* CSS property no longer required */
-    /* list-style-type: none; */
-}
-
+/* list properties in the header placement in the container. */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
     
 }
 
+/* colour applied to the anchor elements */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* hover applied for visual effect */
-.underline a:hover {
-    color: #ccec92;
-}
-
-p {
-    /* CSS property no longer required */
-    /* font-size: 16px; */
-}
-
+/* image below the nvabar. Properties for the placement and directory to the image */
 .hero {
     height: 800px;
     width: 100%;
@@ -69,23 +70,25 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* SEO image and the Social Media MArketing Image placement properties. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
+/* Online Reputation Management image placement properties. Opposite side to the other images */
 
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* content container that has the 3 listed elements. Container properties */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Side bar on the right. Properties for styling and placement. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -97,47 +100,58 @@ p {
     background-color: #2589bd;
 }
 
+/* First icon container on right side bar. Styling and placement properties */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
+
+/* Second icon container on right side bar. Styling and placement properties */
 
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Third icon container on right side bar. Styling and placement properties */
+
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* header for the first icon, text styling properties */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+/* header for the second icon, text styling properties */
 
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+/* header for the third icon, text styling properties */
 
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+/* img for the first icon, placement roperties */
 
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* img for the second icon, placement roperties */
 
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* img for the fourth icon, placement roperties */
 
 .benefit-cost img {
     display: block;
@@ -145,6 +159,7 @@ p {
     max-width: 150px;
 }
 
+/* container placement set ith certain stylings added. Including BG colour, font styling, colour and size.  */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -154,6 +169,7 @@ p {
     color: #ffffff;
     
 }
+/* container placement set ith certain stylings added. Including BG colour, font styling, colour and size.  */
 
 .online-reputation-management {
     margin-bottom: 20px;
@@ -163,6 +179,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+/* container placement set ith certain stylings added. Including BG colour, font styling, colour and size.  */
 
 .social-media-marketing {
     margin-bottom: 20px;
@@ -172,42 +189,53 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Height property for the first image */
 .search-engine-optimization img {
     max-height: 200px;
 }
+/* Height property for the second image */
 
 .online-reputation-management img {
     max-height: 200px;
 }
+/* Height property for the third image */
 
 .social-media-marketing img {
     max-height: 200px;
 }
+/* text property for the first header */
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* text property for the second header */
 
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* text property for the third header */
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+ /* footer styling attributes applied for font styling and placement in the container */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-.footer h2 {
+/* header for the footer. Stylign attributes */
+.footer h4 {
     font-size: 20px;
 }
 
+/* 3. Text Animation */
+
+/* hover applied for visual effect */
+.underline a:hover {
+    color: #ccec92;
+}
